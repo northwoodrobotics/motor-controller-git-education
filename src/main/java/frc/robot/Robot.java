@@ -33,7 +33,7 @@ public class Robot extends TimedRobot {
   private XboxController xbox;
 
   @Override
-  public void robotInit() {
+  public void robotInit() { //random comment again
     m_motor = new VictorSP(kMotorPort);
     m_motor2 = new VictorSP(kMotor2Port);
     xbox = new XboxController(xboxPort);
